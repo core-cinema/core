@@ -1,0 +1,24 @@
+{
+  "name": "@grw_cinema/core",
+  "version": "1.0.0",
+  "description": "Core utitlities and shared setup",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "G-Wulfer",
+    "email": "my@gwulfer.ru"
+  },
+  "peerDependencies": {
+    "prettier": "3.8.3"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0"
+  },
+  "exports": {
+    "prettier": "./src/prettier.config.mjs"
+  }
+}
+
